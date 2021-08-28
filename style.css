@@ -3,10 +3,16 @@ body {
 	margin: 0;
 	font-family: 'SF Pro Text';
 }
-.section {
+.section_1 {
 	max-width: 1560px;
 	margin: 0 auto;
 	display: flex;
+	
+}
+.section_1 {
+	max-width: 1560px;
+	margin: 0 auto;
+	
 	
 }
 
@@ -155,7 +161,7 @@ nav {
 	opacity: 0.8;
 }
 
-img {
+.tickTick {
 	padding-top: 200px;
 }
 
@@ -163,7 +169,17 @@ img {
 	background-color: rgb(68, 68, 68);
 	width: 100%;
 	height: 100vh;
+	text-align: center;
 }
 .text {
+	margin: 0 auto;
 	padding-top: 100px;
+	text-align: center;
+}
+
+footer {
+	padding: 30px 70px 30px 70px;
+	width: 100%;
+	height: 300px;
+	background-color: #024a5c;
 }
